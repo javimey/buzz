@@ -6,7 +6,7 @@ require "buzz/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "buzz"
-  s.version     = "0.0.1geg"
+  s.version     = Buzz::VERSION
   s.authors     = ["Javier Mey"]
   s.email       = ["javier.mey@gmail.com"]
   s.homepage    = ""
