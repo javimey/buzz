@@ -4,7 +4,8 @@ require 'rails/generators/named_base'
 module Buzz
   module Generators
     class BuzzGenerator < ::Rails::Generators::Base
-      argument :access_token, :type => :string, :banner => 'access_token', :default => :use_env_sentinel
+      argument :buzz_api_key, :type => :string, :banner => 'buzz_api_key', :default => :use_env_sentinel
+      argument :buzz_secret_token, :type => :string, :banner => 'buzz_secret_token', :default => :use_env_sentinel
 
       source_root File.expand_path(File.join(File.dirname(__FILE__), 'templates'))
 
@@ -24,7 +25,7 @@ module Buzz
         if defined? EY::Config
             say "Access token will be read from Engine Yard configuration"
         else
-          if access_token === :use_env_sentinel
+          if buzz_api_key === :use_env_sentinel && buzz_secret_token === :use_env_sentinel
             say "Generator run without an access token; assuming you want to configure using an environment variable."
             say "You'll need to add an environment variable BUZZERBOX_API_KEY with your access token:"
             say "\n$ export BUZZERBOX_API_KEY=yourapikeyhere"
@@ -35,21 +36,20 @@ module Buzz
             say "$ rails generate buzzerbox yourapikeyhere yoursecretokenhere"
             say "\n"
           else
-            say "access token: " << access_token
+            say "buzz_api_key: " << buzz_api_key
+            say "buzz_secret_token: " << buzz_secret_token
           end
         end
 
         template 'initializer.rb', 'config/initializers/buzzerbox.rb',
-          :assigns => { :access_token => access_token_expr }
-
-        # TODO run rake test task
+          :assigns => { :buzz_api_key => buzz_api_key, :buzz_secret_token => buzz_secret_token  }
       end
 
       def access_token_expr
-        if access_token === :use_env_sentinel
+        if buzz_api_key === :use_env_sentinel
           "ENV['BUZZERBOX_API_KEY']"
         else
-          "'#{access_token}'"
+          "'#{buzz_api_key}'"
         end
       end
 
