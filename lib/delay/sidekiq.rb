@@ -17,7 +17,7 @@ module Buzz
       include ::Sidekiq::Worker
 
       def perform(*args)
-        Buzz.deliver(*args)
+        Buzz.notify(*args)
       end
     end
   end

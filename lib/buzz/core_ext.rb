@@ -9,7 +9,7 @@ module Buzz
 
   DEFAULT_ENDPOINT = 'http://buzzerbox.herokuapp.com/api/track'
   # DEFAULT_ENDPOINT = 'http://localhost:3000/api/track'
-  
+
   def initialize
     @endpoint = DEFAULT_ENDPOINT
   end
@@ -23,7 +23,7 @@ module Buzz
     @configuration ||= Configuration.new
   end
 
-  def self.deliver(api_key, api_secret, buzz_key, params = {})
+  def self.notify(api_key, api_secret, buzz_key, params = {})
     begin
       parameters = {buzz_key: buzz_key, BUZZBOX_KEY: api_key,BUZZBOX_SECRET: api_secret }
       response = Net::HTTP.post_form(URI.parse(DEFAULT_ENDPOINT), parameters)
