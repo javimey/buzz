@@ -1,0 +1,350 @@
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+CoreExtTest: test_to_squawk_prepends_the_word_squawk
+----------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+CoreExtTest: test_to_squawk_prepends_the_word_squawk
+----------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+CoreExtTest: test_to_squawk_prepends_the_word_squawk
+----------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+ActsAsBuzzTest: test_a_hickwalls_yaffle_text_field_should_be_last_squawk
+------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------
+ActsAsBuzzTest: test_wickwalls_squawk_should_populate_last_tweet
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------
+ActsAsBuzzTest: test_hickwalls_squawk_should_populate_last_squawk
+-----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+CoreExtTest: test_to_squawk_prepends_the_word_squawk
+----------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------
+ActsAsBuzzTest: test_wickwalls_squawk_should_populate_last_tweet
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------
+ActsAsBuzzTest: test_hickwalls_squawk_should_populate_last_squawk
+-----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+ActsAsBuzzTest: test_a_hickwalls_yaffle_text_field_should_be_last_squawk
+------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+CoreExtTest: test_to_squawk_prepends_the_word_squawk
+----------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+ActsAsBuzzTest: test_a_hickwalls_yaffle_text_field_should_be_last_squawk
+------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+ActsAsBuzzTest: test_a_hickwalls_yaffle_text_field_should_be_last_squawk
+------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.9ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+CoreExtTest: test_to_squawk_prepends_the_word_squawk
+----------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+ActsAsBuzzTest: test_a_hickwalls_yaffle_text_field_should_be_last_squawk
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+CoreExtTest: test_to_squawk_prepends_the_word_squawk
+----------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+CoreExtTest: test_to_squawk_prepends_the_word_squawk
+----------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+ActsAsBuzzTest: test_a_hickwalls_yaffle_text_field_should_be_last_squawk
+------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (2.3ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.8ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------
+CoreExtTest: test_to_deliver_notification
+-----------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------
+BuzzTest: test_truth
+--------------------
+  [1m[35m (0.0ms)[0m  rollback transaction

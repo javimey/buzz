@@ -3,6 +3,8 @@ require "uri"
 require "net/http"
 
 module Buzz
+
+  class << self
   attr_accessor :buzz_api_key
   attr_accessor :buzz_secret_token
   attr_accessor :endpoint
@@ -23,7 +25,7 @@ module Buzz
     @configuration ||= Configuration.new
   end
 
-  def self.notify(api_key, api_secret, buzz_key, params = {})
+  def notify(api_key, api_secret, buzz_key, params = {})
     begin
       parameters = {buzz_key: buzz_key, BUZZBOX_KEY: api_key,BUZZBOX_SECRET: api_secret }
       response = Net::HTTP.post_form(URI.parse(DEFAULT_ENDPOINT), parameters)

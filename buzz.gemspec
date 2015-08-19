@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name        = "buzz"
   s.version     = Buzz::VERSION
   s.authors     = ["Javier Mey"]
-  s.email       = ["javier.mey@gmail.com"]
+  s.email       = ["javi@bundly.io"]
   s.homepage    = ""
   s.summary     = "This gems allows you to connect with BuzzerBox."
   s.description = "This gems allows you to connect with BuzzerBox."
@@ -20,5 +20,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.0"
   s.add_dependency "rest-client"
 
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec'
   s.add_development_dependency "sqlite3"
 end
