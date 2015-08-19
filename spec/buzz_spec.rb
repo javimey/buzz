@@ -27,10 +27,4 @@ describe Buzz::Notifier do
       described_class.notify("foo","bar","event", hash).should == {status: 401}
     end
   end
-
-  context "delay" do
-    it "should have the delay method for notify" do
-      described_class.delay.notify("foo","bar","event").should == {status: 401}
-    end
-  end
 end
