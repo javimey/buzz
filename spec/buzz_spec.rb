@@ -7,8 +7,8 @@ describe Buzz::Notifier do
   it { should have_attr_accessor(:endpoint) }
 
   context "default endpoint" do
-    it "should be http://buzzerbox.herokuapp.com/api/track" do
-      subject.endpoint.should == "http://buzzerbox.herokuapp.com/api/track"
+    it "should be https://app.buzzerbox.net/api/track" do
+      subject.endpoint.should == "https://app.buzzerbox.net/api/track"
     end
   end
 

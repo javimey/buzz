@@ -9,7 +9,7 @@ module Buzz
   attr_accessor :buzz_secret_token
   attr_accessor :endpoint
 
-  DEFAULT_ENDPOINT = 'http://buzzerbox.herokuapp.com/api/track'
+  DEFAULT_ENDPOINT = 'https://app.buzzerbox.net/api/track'
   # DEFAULT_ENDPOINT = 'http://localhost:3000/api/track'
 
   def initialize

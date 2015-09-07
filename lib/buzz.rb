@@ -3,7 +3,7 @@ require "net/http"
 
 module Buzz
   class Notifier
-    DEFAULT_ENDPOINT = "http://buzzerbox.herokuapp.com/api/track"
+    DEFAULT_ENDPOINT = "https://app.buzzerbox.net/api/track"
     attr_accessor :buzz_api_key
     attr_accessor :buzz_secret_token
     attr_accessor :endpoint
