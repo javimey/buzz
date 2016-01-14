@@ -22,6 +22,7 @@ module Buzz
     def notify(api_key, api_secret, buzz_key, params = {})
       begin
         parameters = {buzz_key: buzz_key, BUZZBOX_KEY: api_key,BUZZBOX_SECRET: api_secret }
+        parameters[:data1] = params[0]
         response = Net::HTTP.post_form(URI.parse(DEFAULT_ENDPOINT), parameters)
         if response.class == Net::HTTPUnauthorized
           return {status: 401}
